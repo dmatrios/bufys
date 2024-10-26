@@ -1,1 +1,49 @@
-/* You can add global styles to this file, and also import other style files */
+/* Barra de navegación personalizada */
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+.navbar {
+    background-color: #007bff; /* Color azul primario de Bootstrap */
+    padding: 1rem;
+  }
+  
+  .navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #fff;
+  }
+  
+  .nav-link {
+    color: #fff !important;
+    font-size: 1.1rem;
+    margin-left: 1rem;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  .nav-link:hover {
+    color: #ffd700 !important; /* Efecto hover dorado */
+  }
+  
+  .navbar-nav .nav-item {
+    margin-left: 1rem;
+  }
+  
+  .navbar-toggler-icon {
+    color: white;
+  }
+  
+  /* Estilos adicionales para resaltar el diseño */
+  .navbar-nav .nav-link.active {
+    color: #ffd700 !important; /* Color dorado para la opción activa */
+    border-bottom: 2px solid #ffd700; /* Subrayado activo */
+  }
+  
+  @media (max-width: 992px) {
+    .navbar-nav {
+      text-align: center;
+    }
+  }
+  
+
+  

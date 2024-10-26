@@ -1,0 +1,22 @@
+.gallery {
+    text-align: center;
+    margin: 20px;
+  }
+  
+  .gallery-row {
+    display: flex;
+    justify-content: center;
+    margin: 10px 0;
+  }
+  
+  .gallery-item {
+    margin: 0 10px;
+  }
+  
+  .gallery-item img {
+    max-width: 200px; /* Ajusta el tamaño según lo necesites */
+    height: auto;
+    border-radius: 8px; /* Opcional: para bordes redondeados */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Opcional: sombra para las imágenes */
+  }
+  
